@@ -4,11 +4,11 @@
 
 ## プロジェクト概要
 
-Reactで実装した将棋アプリ。`shogi.jsx` 1ファイルに全ロジックが含まれている。
+Reactで実装した将棋アプリ。`src/App.jsx` 1ファイルに全ロジックが含まれている。
 
 ## アーキテクチャ
 
-- **`shogi.jsx`** — 唯一のソースファイル。以下のセクションで構成される：
+- **`src/App.jsx`** — 唯一のソースファイル。以下のセクションで構成される：
   - 駒定義 (`PIECE_DATA`, `PIECE_VALUE` など)
   - 盤面初期化 (`initBoard`)
   - 移動ロジック (`getMoves`, `getLegalMoves`, `canDrop`)
